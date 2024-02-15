@@ -72,7 +72,7 @@ int calculateTotal(const std::vector<Card>& cards);
 void showOptions();
 void drawBottomRow();
 void getUserChoice(std::vector<Card>& deck, std::vector<Card>& playersCards, std::vector<std::string>& playersCardsStr, std::vector<std::string>& dealersCards, int& playersTotal, int bet);
-void dealerPlays(std::vector<Card>& deck, std::vector<Card>& dealersCards, std::vector<std::string>& dealersCardsStr);
+void dealerPlays(std::vector<Card>& deck, std::vector<Card>& dealersCards, std::vector<Card>& playersCards);
 std::vector<Card> convertToCardVector(const std::vector<std::string>& cardStrings, const std::vector<Card>& deck);
 
 // The heart of the program
